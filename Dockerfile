@@ -6,7 +6,7 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /root
-RUN wget http://wili.cc/blog/entries/gpu-burn/gpu_burn-1.0.tar.gz \
+RUN wget https://github.com/jerry3k/gpu-burn/raw/master/gpu_burn-1.0.tar.gz \
     && tar xzf gpu_burn-1.0.tar.gz \
     && make
 
