@@ -1,4 +1,4 @@
-FROM nvidia/cuda:9.0-base
+FROM nvidia/cuda:9.0-devel
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
