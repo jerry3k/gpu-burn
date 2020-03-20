@@ -1,4 +1,4 @@
-# gpu-burn
+# NVIDIA GPU-BURN Test
 Docker image for the Multi-GPU CUDA stress test from https://github.com/jerry3k/gpu-burn/raw/master/gpu_burn-1.0.tar.gz
 
 ## Usage
