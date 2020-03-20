@@ -1,5 +1,5 @@
 # gpu-burn
-Docker image for the Multi-GPU CUDA stress test from http://wili.cc/blog/gpu-burn.html
+Docker image for the Multi-GPU CUDA stress test from https://github.com/jerry3k/gpu-burn/raw/master/gpu_burn-1.0.tar.gz
 
 ## Usage
 
@@ -9,11 +9,5 @@ Default test duration is 10 seconds. If needed, change <test duration> to a diff
 
 #### Docker 19.03 and later
 ```zsh
-docker run --gpus all --rm oguzpastirmaci/gpu-burn <test duration>
-```
-
-#### Previous versions of Docker
-
-```zsh
-nvidia-docker run --rm oguzpastirmaci/gpu-burn <test duration>
+docker run --gpus all --rm jerry3k/gpu-burn <test duration>
 ```
